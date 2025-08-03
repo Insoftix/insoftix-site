@@ -1,1 +1,74 @@
-index.file
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Welcome to Insoftix</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            body {
+                min-height: 100vh;
+                margin: 0;
+                padding: 0;
+                background: linear-gradient(135deg, #161c31 0%, #27a7b6 100%);
+                font-family: "Segoe UI", "Roboto", Arial, sans-serif;
+                color: #e0f7fa;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            .logo-container {
+                background: rgba(22, 28, 49, 0.85);
+                border-radius: 2rem;
+                box-shadow: 0 8px 32px 0 #19197052;
+                padding: 2.5rem 3rem 1.5rem 3rem;
+                text-align: center;
+                margin-bottom: 2rem;
+                transition: box-shadow 0.3s;
+            }
+            .logo-container:hover {
+                box-shadow: 0 12px 36px 0 #27a7b699;
+            }
+            .logo {
+                width: 120px;
+                margin-bottom: 1rem;
+            }
+            h1 {
+                font-size: 2.3rem;
+                letter-spacing: 0.06em;
+                font-weight: 700;
+                margin: 0 0 0.7rem 0;
+            }
+            .subtitle {
+                font-size: 1.2rem;
+                color: #b2ebf2;
+                letter-spacing: 0.03em;
+                margin: 0 0 0.4rem 0;
+            }
+            footer {
+                position: fixed;
+                bottom: 1.8rem;
+                width: 100%;
+                text-align: center;
+                color: #99cfd8;
+                font-size: 0.95rem;
+                opacity: 0.65;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="logo-container">
+            <img
+                src="static/insoftix-logo-small.png"
+                alt="Insoftix Logo"
+                class="logo"
+            />
+            <h1>Welcome to Insoftix</h1>
+            <div class="subtitle">
+                Empowering your digital future, one innovative solution at a
+                time.
+            </div>
+        </div>
+        <footer>&copy; 2025 Insoftix. All rights reserved.</footer>
+    </body>
+</html>
